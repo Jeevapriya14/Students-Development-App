@@ -28,6 +28,7 @@ const obj=[{
 
 ]
 export default function Labels(){
+    
     return(
         <>
         {obj.map((v,i)=><LabelComponent key={i} data={v}></LabelComponent>)}
