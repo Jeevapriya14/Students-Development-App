@@ -8,13 +8,21 @@ const obj=[{
 },
 {
     name:"Mark 2",
-    color:'#f9c74f',
+    color:'rgb(00,255,00)',
   
 },
 {
     name:'Mark 3',
     color:'rgb(54,162,235)',
     
+},
+{
+    name:'Mark 4',
+    color:'rgb(255,00,06)',
+},
+{
+    name:'Mark 5',
+    color:'rgb(160,32,240)',
 }
 
 

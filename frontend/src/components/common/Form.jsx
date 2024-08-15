@@ -15,7 +15,7 @@ export default function Form(){
                     <div className="input-group">
                         <input type='text' {...register('name')} placeholder='Type Subject Name' className="form-input"></input>
                     </div>
-                    <select className="form-input text-white" {...register('type')}>
+                    <select className="form-input text-black" {...register('type')}>
                         <option value='Mark 1' >Mark 1</option>
                         <option value='Mark 2' >Mark 2</option>
                         <option value='Mark 3' >Mark 3</option>

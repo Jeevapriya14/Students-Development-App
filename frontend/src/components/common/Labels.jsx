@@ -6,13 +6,23 @@ const obj=[{
 },
 {
     type:"Mark 2",
-    color:'#f9c74f',
+    color:'rgb(00,255,00)',
     percent:20
 },
 {
     type:'Mark 3',
     color:'rgb(54,162,235)',
     percent:10
+},
+{
+    type:'Mark 4',
+    color:'rgb(255,00,06)',
+    percent:5
+},
+{
+    type:'Mark 5',
+    color:'rgb(160,32,240)',
+    percent:5
 }
 
 
