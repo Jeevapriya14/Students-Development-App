@@ -6,7 +6,7 @@ import LoginPage from "./pages/auth/login/LoginPage";
 import SignUpPage from "./pages/auth/signup/SignUpPage";
 import ProfilePage from "./pages/profile/ProfilePage";
 import Dashboard from "./pages/dashboard/Dashboard";
-import TaskManager from './pages/task/TaskManager';
+// import TaskManager from './pages/task/TaskManager';
 import Connection from './pages/connect/Connect';
 
 import Sidebar from "./components/common/SideBar";
@@ -55,7 +55,7 @@ function App() {
 				<Route path='/signup' element={!authUser ? <SignUpPage /> : <Navigate to='/' />} />
 				<Route path='/profile/:username' element={authUser ? <ProfilePage /> : <Navigate to='/login' />} />
 				<Route path='/dashboard' element={authUser ? <Dashboard /> : <Navigate to='/login' />} />
-				<Route path='/task' element={authUser ? <TaskManager /> : <Navigate to='/login' />} />
+				{/* <Route path='/task' element={authUser ? <TaskManager /> : <Navigate to='/login' />} /> */}
 				<Route path='/connect' element={authUser ? <Connection /> : <Navigate to='/login' />} />
 
 			</Routes>
