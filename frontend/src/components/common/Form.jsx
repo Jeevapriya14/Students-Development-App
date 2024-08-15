@@ -8,14 +8,14 @@ export default function Form(){
     }
 
     return(
-        <div className="form max-w-sm mx-auto w-72">
-            <h1 className="font-bold pb-4 text-xl">Subject Name:</h1>
+        <div className="form max-w-sm mx-auto w-72 text-white">
+            <h1 className="font-bold pb-4 text-xl text-white">Subject Name:</h1>
             <form id='form' onSubmit={handleSubmit(onSubmit)}>
                 <div className="grid gap-4">
                     <div className="input-group">
                         <input type='text' {...register('name')} placeholder='Type Subject Name' className="form-input"></input>
                     </div>
-                    <select className="form-input" {...register('type')}>
+                    <select className="form-input text-white" {...register('type')}>
                         <option value='Mark 1' >Mark 1</option>
                         <option value='Mark 2' >Mark 2</option>
                         <option value='Mark 3' >Mark 3</option>
