@@ -1,21 +1,21 @@
 import './App.css'
 import { Navigate, Route, Routes } from "react-router-dom";
 
-import HomePage from "./frontend/src/pages/home/HomePage";
-import LoginPage from "./frontend/src/pages/auth/login/LoginPage";
-import SignUpPage from "./frontend/src/pages/auth/signup/SignUpPage";
-import ProfilePage from "./frontend/src/pages/profile/ProfilePage";
-import Dashboard from "./frontend/src/pages/dashboard/Dashboard";
+import HomePage from "./pages/home/HomePage";
+import LoginPage from "./pages/auth/login/LoginPage";
+import SignUpPage from "./pages/auth/signup/SignUpPage";
+import ProfilePage from "./pages/profile/ProfilePage";
+import Dashboard from "./pages/dashboard/Dashboard";
 // import TaskManager from './pages/task/TaskManager';
-import Connection from './frontend/src/pages/connect/Connect';
+import Connection from './pages/connect/Connect';
 
-import Sidebar from "./frontend/src/components/common/SideBar";
-import RightPanel from "./frontend/src/components/common/RightPanel";
+import Sidebar from "./components/common/SideBar";
+import RightPanel from "./components/common/RightPanel";
 
 import { Toaster } from "react-hot-toast";
 import { useQuery } from "@tanstack/react-query";
-import LoadingSpinner from "./frontend/src/components/common/LoadingSpinner";
-import Connect from './frontend/src/pages/connect/Connect';
+import LoadingSpinner from "./components/common/LoadingSpinner";
+import Connect from './pages/connect/Connect';
 
 function App() {
 
