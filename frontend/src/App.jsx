@@ -7,7 +7,7 @@ import SignUpPage from "./pages/auth/signup/SignUpPage";
 import ProfilePage from "./pages/profile/ProfilePage";
 import Dashboard from "./pages/dashboard/Dashboard";
 // import TaskManager from './pages/task/TaskManager';
-import Connection from './pages/connect/Connect';
+// import Connection from './pages/connect/Connect';
 
 import Sidebar from "./components/common/SideBar";
 import RightPanel from "./components/common/RightPanel";
@@ -15,7 +15,7 @@ import RightPanel from "./components/common/RightPanel";
 import { Toaster } from "react-hot-toast";
 import { useQuery } from "@tanstack/react-query";
 import LoadingSpinner from "./components/common/LoadingSpinner";
-import Connect from './pages/connect/Connect';
+// import Connect from './pages/connect/Connect';
 
 function App() {
 
@@ -56,7 +56,7 @@ function App() {
 				<Route path='/profile/:username' element={authUser ? <ProfilePage /> : <Navigate to='/login' />} />
 				<Route path='/dashboard' element={authUser ? <Dashboard /> : <Navigate to='/login' />} />
 				{/* <Route path='/task' element={authUser ? <TaskManager /> : <Navigate to='/login' />} /> */}
-				<Route path='/connect' element={authUser ? <Connection /> : <Navigate to='/login' />} />
+				{/* <Route path='/connect' element={authUser ? <Connection /> : <Navigate to='/login' />} /> */}
 
 			</Routes>
 			{authUser && <RightPanel />}
